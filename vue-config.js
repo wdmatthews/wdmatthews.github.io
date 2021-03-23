@@ -90,6 +90,10 @@ new Vue({
         icon: 'linkedin',
         href: 'https://www.linkedin.com/in/wesley-matthews-004546192/',
       },
+      {
+        icon: 'github',
+        href: 'https://github.com/wdmatthews',
+      },
     ],
     projects: [
       {
