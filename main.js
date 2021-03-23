@@ -30,6 +30,12 @@ const projects = [
     description: 'A simple object pooling system for the Unity game engine.',
     skills: 'Unity, C#',
   },
+  {
+    name: 'Event System',
+    github: 'https://github.com/wdmatthews/event-system',
+    description: 'A scriptable object based event system with cross scene compatability.',
+    skills: 'Unity, C#',
+  },
 ];
 const projectsSection = mq.one('#projects-list');
 projects.forEach(project => {
