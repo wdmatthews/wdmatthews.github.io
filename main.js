@@ -24,6 +24,12 @@ const projects = [
     description: 'A lightweight script to shorten code related to DOM manipulation.',
     skills: 'JavaScript',
   },
+  {
+    name: 'Object Pooling',
+    github: 'https://github.com/wdmatthews/object-pooling',
+    description: 'A simple object pooling system for the Unity game engine.',
+    skills: 'Unity, C#',
+  },
 ];
 const projectsSection = mq.one('#projects-list');
 projects.forEach(project => {
