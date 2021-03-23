@@ -4,48 +4,128 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
   <title>Wesley Matthews</title>
-  <link rel="stylesheet" href="main.css">
-  <script src="mq.min.js"></script>
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css">
 </head>
 <body>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
-  <main>
-    <section>
-      <h1 id="about">About</h1>
-      <p>I'm a software developer with experience in web and game development.</p>
-      <h2>Education</h2>
-      <p>Illinois Mathematics and Science Academy</p>
-      <p>High School Diploma</p>
-      <p class="margin-bottom">2018 - 2021</p>
-      <p>Kankakee High School</p>
-      <p>High School Diploma</p>
-      <p>2017 - 2018</p>
-      <h2>Work Experience</h2>
-      <p>Web Development Intern</p>
-      <p>Block Bins - Internship</p>
-      <p>September 2020 - April 2021</p>
-      <h2>Skills</h2>
-      <ul id="skills-list" class="padding-x"></ul>
-      <h2 style="margin-bottom: 24px;">Resume</h2>
-      <a href="resume.pdf" class="button">Download</a>
-    </section>
-    <section>
-      <h1 id="projects">Projects</h1>
-      <div id="projects-list">
-        
-      </div>
-    </section>
-    <section>
-      <h1 id="contact">Contact</h1>
-      <p><a href="https://www.linkedin.com/in/wesley-matthews-004546192/">LinkedIn</a></p>
-      <p><a href="mailto:wdmatthews3@gmail.com">Email</a></p>
-    </section>
-    
-    <script src="main.js"></script>
-  </main>
+  <div id="app">
+    <v-app>
+      <v-app-bar app>
+        <v-tabs centered v-model="tab">
+          <v-tab>About</v-tab>
+          <v-tab>Projects</v-tab>
+        </v-tabs>
+      </v-app-bar>
+      <v-main>
+        <v-tabs-items v-model="tab" style="background-color: transparent;">
+          <v-tab-item class="px-4">
+            <h1 class="text-center text-h4 mt-4">Hello, I'm Wesley Matthews</h1>
+            <h3 class="text-center text-body-1 mt-4" v-text="selfDescription"></h3>
+            <v-row no-gutters justify="center">
+              <v-col cols="12" md="6" class="pa-0">
+                <h5 class="text-center text-h6 mt-4">Education</h5>
+                <v-card v-for="(school, i) in schools" :key="`school-${i}`" class="my-4">
+                  <v-card-title v-text="school.name"></v-card-title>
+                  <v-card-subtitle>
+                    <p v-text="school.degree" class="mb-0"></p>
+                    <p class="mb-0">{{ school.start }} - {{ school.end }}</p>
+                  </v-card-subtitle>
+                </v-card>
+                <h5 class="text-center text-h6">Experience</h5>
+                <v-card v-for="(job, i) in jobs" :key="`job-${i}`" class="my-4">
+                  <v-card-title v-text="job.title"></v-card-title>
+                  <v-card-subtitle>
+                    <p v-text="job.company" class="mb-0"></p>
+                    <p v-text="job.type" class="mb-0"></p>
+                    <p class="mb-0">{{ job.start }} - {{ job.end }}</p>
+                  </v-card-subtitle>
+                </v-card>
+                <h5 class="text-center text-h6 mb-4">Skills</h5>
+                <div class="mx-n2 mt-n2 mb-2">
+                  <v-chip
+                    v-for="(skill, i) in skills"
+                    :key="`skill-${i}`"
+                    :color="skill.color"
+                    text-color="white"
+                    class="ma-2"
+                  >
+                    <v-avatar left v-if="skill.icon">
+                      <v-icon>mdi-{{ skill.icon }}</v-icon>
+                    </v-avatar>
+                    {{ skill.name }}
+                  </v-chip>
+                </div>
+                <h5 class="text-center text-h6 mb-4">Resume</h5>
+                <div class="text-center mb-4">
+                  <v-btn color="primary" elevation="2" href="resume.pdf">Download</v-btn>
+                </div>
+              </v-col>
+            </v-row>
+          </v-tab-item>
+          <v-tab-item>
+            <v-row no-gutters justify="center">
+              <v-col cols="12" md="6" class="pa-0">
+                <v-card v-for="(project, i) in projects" :key="`project-${i}`" class="ma-4">
+                  <v-card-title v-text="project.name"></v-card-title>
+                  <v-card-text>
+                    <p v-text="project.description"></p>
+                    <div class="ma-n2">
+                      <v-chip
+                      v-for="(skill, j) in project.skills"
+                      :key="`project-skill-${j}`"
+                      :color="skill.color"
+                      text-color="white"
+                      class="ma-2"
+                    >
+                      <v-avatar left v-if="skill.icon">
+                        <v-icon>mdi-{{ skill.icon }}</v-icon>
+                      </v-avatar>
+                      {{ skill.name }}
+                    </v-chip>
+                    </div>
+                  </v-card-text>
+                  <v-card-actions class="px-4 pt-0 pb-4">
+                    <v-btn color="primary" :href="project.github" target="_blank">
+                      <v-icon left>mdi-github</v-icon>
+                      Github
+                    </v-btn>
+                  </v-card-actions>
+                </v-card>
+              </v-col>
+            </v-row>
+          </v-tab-item>
+        </v-tabs-items>
+      </v-main>
+      <v-footer app padless>
+        <v-card
+          flat
+          tile
+          width="100%"
+          class="text-center blue-grey darken-4"
+        >
+          <v-card-text>
+            <v-btn
+              v-for="(link, i) in contactLinks"
+              :key="`contact-link-${i}`"
+              class="mx-2"
+              icon
+              :href="link.href"
+              target="_blank"
+            >
+              <v-icon size="24px">
+                mdi-{{ link.icon }}
+              </v-icon>
+            </v-btn>
+          </v-card-text>
+        </v-card>
+      </v-footer>
+    </v-app>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+  <script src="vue-config.js"></script>
 </body>
 </html>

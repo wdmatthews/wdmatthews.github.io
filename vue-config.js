@@ -1,0 +1,143 @@
+new Vue({
+  el: '#app',
+  vuetify: new Vuetify({
+    theme: { dark: true },
+  }),
+  data: () => ({
+    selfDescription: "I'm a software developer with experience in web and game development.",
+    tab: 0,
+    schools: [
+      {
+        name: 'Illinois Mathematics and Science Academy',
+        degree: 'High School Diploma',
+        start: 'August 2018',
+        end: 'June 2021',
+      },
+      {
+        name: 'Kankakee High School',
+        degree: 'High School Diploma',
+        start: 'August 2017',
+        end: 'June 2018',
+      },
+    ],
+    jobs: [
+      {
+        title: 'Web Development Intern',
+        company: 'Block Bins',
+        type: 'Internship',
+        start: 'September 2020',
+        end: 'April 2021',
+      },
+    ],
+    skills: [
+      {
+        name: 'C#',
+        color: 'deep-purple',
+        icon: 'language-csharp',
+      },
+      {
+        name: 'Unity',
+        color: 'blue',
+        icon: 'unity',
+      },
+      {
+        name: 'Node.js',
+        color: 'green darken-3',
+        icon: 'nodejs',
+      },
+      {
+        name: 'MongoDB',
+        color: 'green',
+        icon: 'leaf',
+      },
+      {
+        name: 'Vue.js',
+        color: 'teal',
+        icon: 'vuejs',
+      },
+      {
+        name: 'Vuetify.js',
+        color: 'light-blue',
+        icon: 'vuetify',
+      },
+      {
+        name: 'jQuery',
+        color: 'blue darken-3',
+        icon: 'jquery',
+      },
+      {
+        name: 'Bootstrap',
+        color: 'purple darken-2',
+        icon: 'bootstrap',
+      },
+      {
+        name: 'PHP',
+        color: 'indigo',
+        icon: 'language-php',
+      },
+      {
+        name: 'MySQL',
+        color: 'blue darken-2',
+        icon: 'database',
+      },
+    ],
+    contactLinks: [
+      {
+        icon: 'gmail',
+        href: 'mailto:wdmatthews3@gmail.com',
+      },
+      {
+        icon: 'linkedin',
+        href: 'https://www.linkedin.com/in/wesley-matthews-004546192/',
+      },
+    ],
+    projects: [
+      {
+        name: 'mini-query',
+        github: 'https://wdmatthews.github.io/mini-query/',
+        description: 'A lightweight script to shorten code related to DOM manipulation.',
+        skills: [
+          {
+            name: 'JavaScript',
+            color: 'yellow darken-3',
+            icon: 'language-javascript',
+          },
+        ],
+      },
+      {
+        name: 'Object Pooling',
+        github: 'https://github.com/wdmatthews/object-pooling',
+        description: 'A simple object pooling system for the Unity game engine.',
+        skills: [
+          {
+            name: 'C#',
+            color: 'deep-purple',
+            icon: 'language-csharp',
+          },
+          {
+            name: 'Unity',
+            color: 'blue',
+            icon: 'unity',
+          },
+        ],
+      },
+      {
+        name: 'Event System',
+        github: 'https://github.com/wdmatthews/event-system',
+        description: 'A scriptable object based event system with cross scene compatability.',
+        skills: [
+          {
+            name: 'C#',
+            color: 'deep-purple',
+            icon: 'language-csharp',
+          },
+          {
+            name: 'Unity',
+            color: 'blue',
+            icon: 'unity',
+          },
+        ],
+      },
+    ],
+  }),
+});
