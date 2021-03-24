@@ -142,6 +142,23 @@ new Vue({
           },
         ],
       },
+      {
+        name: 'UI Tweening',
+        github: 'https://github.com/wdmatthews/ui-tweening',
+        description: 'A tweening package for Unity, focused on UI.',
+        skills: [
+          {
+            name: 'C#',
+            color: 'deep-purple',
+            icon: 'language-csharp',
+          },
+          {
+            name: 'Unity',
+            color: 'blue',
+            icon: 'unity',
+          },
+        ],
+      },
     ],
   }),
 });
