@@ -159,6 +159,28 @@ new Vue({
           },
         ],
       },
+      {
+        name: 'node-auth',
+        github: 'https://github.com/wdmatthews/node-auth',
+        description: 'A simple authentication system for Node.js, including middleware for preventing page access.',
+        skills: [
+          {
+            name: 'JavaScript',
+            color: 'yellow darken-3',
+            icon: 'language-javascript',
+          },
+          {
+            name: 'Node.js',
+            color: 'green darken-3',
+            icon: 'nodejs',
+          },
+          {
+            name: 'MongoDB',
+            color: 'green',
+            icon: 'leaf',
+          },
+        ],
+      },
     ],
   }),
 });
