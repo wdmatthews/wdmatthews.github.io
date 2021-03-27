@@ -181,6 +181,38 @@ new Vue({
           },
         ],
       },
+      {
+        name: 'uno',
+        github: 'https://github.com/wdmatthews/uno',
+        description: 'A Socket.io implementation of the classic Uno card game.',
+        skills: [
+          {
+            name: 'JavaScript',
+            color: 'yellow darken-3',
+            icon: 'language-javascript',
+          },
+          {
+            name: 'Node.js',
+            color: 'green darken-3',
+            icon: 'nodejs',
+          },
+          {
+            name: 'MongoDB',
+            color: 'green',
+            icon: 'leaf',
+          },
+          {
+            name: 'Vue.js',
+            color: 'teal',
+            icon: 'vuejs',
+          },
+          {
+            name: 'Vuetify.js',
+            color: 'light-blue',
+            icon: 'vuetify',
+          },
+        ],
+      },
     ],
   }),
 });
