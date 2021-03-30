@@ -182,7 +182,7 @@ new Vue({
         ],
       },
       {
-        name: 'uno',
+        name: 'Uno',
         github: 'https://github.com/wdmatthews/uno',
         description: 'A Socket.io implementation of the classic Uno card game.',
         skills: [
@@ -210,6 +210,38 @@ new Vue({
             name: 'Vuetify.js',
             color: 'light-blue',
             icon: 'vuetify',
+          },
+        ],
+      },
+      {
+        name: 'Falling Tiles',
+        github: 'https://github.com/wdmatthews/falling-tiles',
+        description: 'A game with falling tiles made in Unity that uses MongoDB to save game data.',
+        skills: [
+          {
+            name: 'C#',
+            color: 'deep-purple',
+            icon: 'language-csharp',
+          },
+          {
+            name: 'Unity',
+            color: 'blue',
+            icon: 'unity',
+          },
+          {
+            name: 'JavaScript',
+            color: 'yellow darken-3',
+            icon: 'language-javascript',
+          },
+          {
+            name: 'Node.js',
+            color: 'green darken-3',
+            icon: 'nodejs',
+          },
+          {
+            name: 'MongoDB',
+            color: 'green',
+            icon: 'leaf',
           },
         ],
       },
