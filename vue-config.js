@@ -165,11 +165,6 @@ new Vue({
         description: 'A simple authentication system for Node.js, including middleware for preventing page access.',
         skills: [
           {
-            name: 'JavaScript',
-            color: 'yellow darken-3',
-            icon: 'language-javascript',
-          },
-          {
             name: 'Node.js',
             color: 'green darken-3',
             icon: 'nodejs',
@@ -186,11 +181,6 @@ new Vue({
         github: 'https://github.com/wdmatthews/uno',
         description: 'A Socket.io implementation of the classic Uno card game.',
         skills: [
-          {
-            name: 'JavaScript',
-            color: 'yellow darken-3',
-            icon: 'language-javascript',
-          },
           {
             name: 'Node.js',
             color: 'green darken-3',
@@ -227,11 +217,6 @@ new Vue({
             name: 'Unity',
             color: 'blue',
             icon: 'unity',
-          },
-          {
-            name: 'JavaScript',
-            color: 'yellow darken-3',
-            icon: 'language-javascript',
           },
           {
             name: 'Node.js',
