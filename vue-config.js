@@ -230,6 +230,28 @@ new Vue({
           },
         ],
       },
+      {
+        name: 'Calculator',
+        github: 'https://wdmatthews.github.io/calculator/',
+        description: 'A calculator made with Vue.js for unit testing practice.',
+        skills: [
+          {
+            name: 'JavaScript',
+            color: 'yellow darken-3',
+            icon: 'language-javascript',
+          },
+          {
+            name: 'Vue.js',
+            color: 'teal',
+            icon: 'vuejs',
+          },
+          {
+            name: 'Vuetify.js',
+            color: 'light-blue',
+            icon: 'vuetify',
+          },
+        ],
+      },
     ],
   }),
 });
