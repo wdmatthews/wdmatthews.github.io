@@ -252,6 +252,23 @@ new Vue({
           },
         ],
       },
+      {
+        name: 'Life is Unfair',
+        github: 'https://wdmatthews.github.io/life-is-unfair/',
+        description: 'A simple platformer about life and joy.',
+        skills: [
+          {
+            name: 'C#',
+            color: 'deep-purple',
+            icon: 'language-csharp',
+          },
+          {
+            name: 'Unity',
+            color: 'blue',
+            icon: 'unity',
+          },
+        ],
+      },
     ],
   }),
 });
