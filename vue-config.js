@@ -269,6 +269,33 @@ new Vue({
           },
         ],
       },
+      {
+        name: 'Task Dungeon',
+        github: 'https://github.com/wdmatthews/task-dungeon',
+        description: 'A medieval task manager that rewards you for completing tasks.',
+        skills: [
+          {
+            name: 'Node.js',
+            color: 'green darken-3',
+            icon: 'nodejs',
+          },
+          {
+            name: 'MongoDB',
+            color: 'green',
+            icon: 'leaf',
+          },
+          {
+            name: 'Vue.js',
+            color: 'teal',
+            icon: 'vuejs',
+          },
+          {
+            name: 'Vuetify.js',
+            color: 'light-blue',
+            icon: 'vuetify',
+          },
+        ],
+      },
     ],
   }),
 });
