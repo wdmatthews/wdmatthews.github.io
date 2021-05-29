@@ -296,6 +296,18 @@ new Vue({
           },
         ],
       },
+      {
+        name: 'Centauri Engine',
+        github: 'https://github.com/wdmatthews/centauri-engine',
+        description: 'An experiment on the Canvas API to create a game engine.',
+        skills: [
+          {
+            name: 'JavaScript',
+            color: 'yellow darken-3',
+            icon: 'language-javascript',
+          },
+        ],
+      },
     ],
   }),
 });
