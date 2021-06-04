@@ -308,6 +308,28 @@ new Vue({
           },
         ],
       },
+      {
+        name: 'Mars Colony',
+        github: 'https://wdmatthews.github.io/mars-colony/',
+        description: 'A city building game made in Unity that saves to a local Vuex store.',
+        skills: [
+          {
+            name: 'C#',
+            color: 'deep-purple',
+            icon: 'language-csharp',
+          },
+          {
+            name: 'Unity',
+            color: 'blue',
+            icon: 'unity',
+          },
+          {
+            name: 'Vue.js',
+            color: 'teal',
+            icon: 'vuejs',
+          },
+        ],
+      },
     ],
   }),
 });
