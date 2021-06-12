@@ -51,6 +51,11 @@ new Vue({
         icon: 'leaf',
       },
       {
+        name: 'Nuxt.js',
+        color: 'teal accent-4',
+        icon: 'nuxt',
+      },
+      {
         name: 'Vue.js',
         color: 'teal',
         icon: 'vuejs',
@@ -327,6 +332,33 @@ new Vue({
             name: 'Vue.js',
             color: 'teal',
             icon: 'vuejs',
+          },
+        ],
+      },
+      {
+        name: 'Spearmint',
+        github: 'https://github.com/wdmatthews/spearmint',
+        description: 'A chat website with a NuxtJS frontend and MongoDB Realm backend.',
+        skills: [
+          {
+            name: 'MongoDB',
+            color: 'green',
+            icon: 'leaf',
+          },
+          {
+            name: 'Vue.js',
+            color: 'teal',
+            icon: 'vuejs',
+          },
+          {
+            name: 'Vuetify.js',
+            color: 'light-blue',
+            icon: 'vuetify',
+          },
+          {
+            name: 'Nuxt.js',
+            color: 'teal accent-4',
+            icon: 'nuxt',
           },
         ],
       },
