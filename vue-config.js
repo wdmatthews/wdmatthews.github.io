@@ -362,6 +362,28 @@ new Vue({
           },
         ],
       },
+      {
+        name: 'Vue Charts',
+        github: 'https://wdmatthews.github.io/vue-charts/',
+        description: 'A few Vue.js single file components to make Chart.js charts reactive.',
+        skills: [
+          {
+            name: 'Vue.js',
+            color: 'teal',
+            icon: 'vuejs',
+          },
+          {
+            name: 'Vuetify.js',
+            color: 'light-blue',
+            icon: 'vuetify',
+          },
+          {
+            name: 'Nuxt.js',
+            color: 'teal accent-4',
+            icon: 'nuxt',
+          },
+        ],
+      },
     ],
   }),
 });
