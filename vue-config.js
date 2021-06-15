@@ -384,6 +384,19 @@ new Vue({
           },
         ],
       },
+      // https://wdmatthews.github.io/vuetify-theme-editor/
+      {
+        name: 'Vuetify Theme Editor',
+        github: 'https://wdmatthews.github.io/vuetify-theme-editor/',
+        description: 'A theme editor for Vuetify that allows you to quickly create a theme for both dark and light mode.',
+        skills: [
+          {
+            name: 'Vuetify.js',
+            color: 'light-blue',
+            icon: 'vuetify',
+          },
+        ],
+      },
     ],
   }),
 });
