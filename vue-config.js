@@ -22,6 +22,13 @@ new Vue({
     ],
     jobs: [
       {
+        title: 'Web Developer',
+        company: 'Block Bins',
+        type: 'Part-Time',
+        start: 'June 2021',
+        end: 'Current',
+      },
+      {
         title: 'Web Development Intern',
         company: 'Block Bins',
         type: 'Internship',
