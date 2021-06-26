@@ -391,7 +391,6 @@ new Vue({
           },
         ],
       },
-      // https://wdmatthews.github.io/vuetify-theme-editor/
       {
         name: 'Vuetify Theme Editor',
         github: 'https://wdmatthews.github.io/vuetify-theme-editor/',
@@ -401,6 +400,28 @@ new Vue({
             name: 'Vuetify.js',
             color: 'light-blue',
             icon: 'vuetify',
+          },
+        ],
+      },
+      {
+        name: 'nuxt-realm',
+        github: 'https://github.com/wdmatthews/nuxt-realm',
+        description: 'An unofficial MongoDB Realm plugin for NuxtJS.',
+        skills: [
+          {
+            name: 'MongoDB',
+            color: 'green',
+            icon: 'leaf',
+          },
+          {
+            name: 'Vue.js',
+            color: 'teal',
+            icon: 'vuejs',
+          },
+          {
+            name: 'Nuxt.js',
+            color: 'teal accent-4',
+            icon: 'nuxt',
           },
         ],
       },
