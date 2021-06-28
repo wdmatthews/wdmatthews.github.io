@@ -95,4 +95,10 @@ export default [
     description: 'An unofficial MongoDB Realm plugin for NuxtJS.',
     skills: ['MongoDB', 'Vue.js', 'Nuxt.js'],
   },
+  {
+    name: 'realm-schema-editor',
+    github: 'https://github.com/wdmatthews/realm-schema-editor',
+    description: 'A node editor for MongoDB Realm\'s rules and schemas, based on Unity\'s GraphView system.',
+    skills: ['C#', 'Unity'],
+  },
 ]
