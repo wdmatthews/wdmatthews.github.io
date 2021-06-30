@@ -101,4 +101,10 @@ export default [
     description: 'A node editor for MongoDB Realm\'s rules and schemas, based on Unity\'s GraphView system.',
     skills: ['C#', 'Unity'],
   },
+  {
+    name: 'mastermind',
+    github: 'https://wdmatthews.github.io/mastermind/',
+    description: 'An implementation of Mastermind using NuxtJS as the front end and MongoDB Realm as the backend.',
+    skills: ['MongoDB', 'Vue.js', 'Vuetify.js', 'Nuxt.js'],
+  },
 ]
