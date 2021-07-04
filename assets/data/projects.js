@@ -107,4 +107,10 @@ export default [
     description: 'An implementation of Mastermind using NuxtJS as the front end and MongoDB Realm as the backend.',
     skills: ['MongoDB', 'Vue.js', 'Vuetify.js', 'Nuxt.js'],
   },
+  {
+    name: 'simple-logger',
+    github: 'https://github.com/wdmatthews/simple-logger',
+    description: 'A simple replacement for console logging that functions different in production or development.',
+    skills: ['Node.js'],
+  },
 ]
