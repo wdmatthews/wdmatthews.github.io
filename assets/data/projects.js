@@ -113,4 +113,10 @@ export default [
     description: 'A simple replacement for console logging that functions different in production or development.',
     skills: ['Node.js'],
   },
+  {
+    name: 'Kindly',
+    github: 'https://wdmatthews.github.io/kindly/',
+    description: 'A sprinkle of kindness in digital education.',
+    skills: ['Vue.js', 'Vuetify.js', 'Nuxt.js'],
+  },
 ]
