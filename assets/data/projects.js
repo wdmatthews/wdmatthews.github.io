@@ -119,4 +119,10 @@ export default [
     description: 'A sprinkle of kindness in digital education.',
     skills: ['Vue.js', 'Vuetify.js', 'Nuxt.js'],
   },
+  {
+    name: 'PVZ',
+    github: 'https://wdmatthews.github.io/pvz/',
+    description: 'A Plants vs Zombies style game made in Unity.',
+    skills: ['C#', 'Unity'],
+  },
 ]
