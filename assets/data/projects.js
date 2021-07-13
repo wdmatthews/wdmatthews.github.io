@@ -125,4 +125,10 @@ export default [
     description: 'A Plants vs Zombies style game made in Unity.',
     skills: ['C#', 'Unity'],
   },
+  {
+    name: 'Level Up Audio',
+    github: 'https://wdmatthews.github.io/level-up-audio/',
+    description: 'Level up your game’s audio!',
+    skills: ['Vue.js', 'Vuetify.js', 'Nuxt.js'],
+  },
 ]
