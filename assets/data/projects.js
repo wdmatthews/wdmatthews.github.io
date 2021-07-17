@@ -114,6 +114,12 @@ export default [
     skills: ['Node.js'],
   },
   {
+    name: 'Course Viewer',
+    github: 'https://wdmatthews.github.io/course-viewer/',
+    description: 'A simple viewer for school courses.',
+    skills: ['Vue.js', 'Vuetify.js', 'Nuxt.js'],
+  },
+  {
     name: 'Kindly',
     github: 'https://wdmatthews.github.io/kindly/',
     description: 'A sprinkle of kindness in digital education.',
