@@ -137,4 +137,10 @@ export default [
     description: 'Level up your game’s audio!',
     skills: ['Vue.js', 'Vuetify.js', 'Nuxt.js'],
   },
+  {
+    name: 'squared',
+    github: 'https://wdmatthews.github.io/squared/',
+    description: 'A 2048-style game about squaring numbers and solving puzzles for both desktop and mobile on Unity WebGL.',
+    skills: ['C#', 'Unity'],
+  },
 ]
