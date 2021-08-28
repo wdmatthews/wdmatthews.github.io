@@ -9,7 +9,7 @@
           Hello, I'm Wesley Matthews
         </h1>
         <h2 class="text-center text-body-1 my-4">
-          I'm a software developer with experience in web and game development.
+          I'm a computer engineer with experience in web and game development.
         </h2>
       </div>
       <h5 class="text-center text-h6">
