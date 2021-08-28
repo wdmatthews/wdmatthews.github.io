@@ -35,7 +35,7 @@ export default {
       },
       {
         icon: 'linkedin',
-        href: 'https://www.linkedin.com/in/wesley-matthews-004546192/',
+        href: 'https://www.linkedin.com/in/wdmatthews',
       },
       {
         icon: 'github',
