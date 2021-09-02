@@ -1,15 +1,5 @@
 export default [
   {
-    name: 'C#',
-    color: 'deep-purple',
-    icon: 'language-csharp',
-  },
-  {
-    name: 'Unity',
-    color: 'blue',
-    icon: 'unity',
-  },
-  {
     name: 'JavaScript',
     color: 'yellow darken-3',
     icon: 'language-javascript',
@@ -20,9 +10,19 @@ export default [
     icon: 'nodejs',
   },
   {
-    name: 'MongoDB',
-    color: '#13aa52',
-    icon: 'leaf',
+    name: 'C#',
+    color: 'deep-purple',
+    icon: 'language-csharp',
+  },
+  {
+    name: 'Unity',
+    color: 'blue',
+    icon: 'unity',
+  },
+  {
+    name: 'GitHub',
+    color: '#161B22',
+    icon: 'github',
   },
   {
     name: 'Nuxt.js',
@@ -38,6 +38,11 @@ export default [
     name: 'Vuetify.js',
     color: 'blue',
     icon: 'vuetify',
+  },
+  {
+    name: 'MongoDB',
+    color: '#13aa52',
+    icon: 'leaf',
   },
   {
     name: 'jQuery',
