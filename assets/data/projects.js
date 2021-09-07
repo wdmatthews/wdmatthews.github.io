@@ -149,4 +149,10 @@ export default [
     description: 'A simple timer and stopwatch.',
     skills: ['JavaScript'],
   },
+  {
+    name: 'Joyfully Cooked',
+    github: 'https://wdmatthews.github.io/joyfully-cooked/',
+    description: 'Delicious food with a sprinkle of joy',
+    skills: ['Vue.js', 'Vuetify.js', 'Nuxt.js'],
+  },
 ]
