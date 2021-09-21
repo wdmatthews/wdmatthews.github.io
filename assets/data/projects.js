@@ -155,4 +155,10 @@ export default [
     description: 'Delicious food with a sprinkle of joy',
     skills: ['Vue.js', 'Vuetify.js', 'Nuxt.js'],
   },
+  {
+    name: 'simple-platformer',
+    github: 'https://wdmatthews.github.io/simple-platformer/',
+    description: 'A simple 2D platformer made in Unity with the goal of making a finished and test driven game.',
+    skills: ['C#', 'Unity'],
+  },
 ]
