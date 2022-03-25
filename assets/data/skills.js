@@ -40,6 +40,11 @@ export default [
     icon: 'vuetify',
   },
   {
+    name: 'Firebase',
+    color: '#F57C00',
+    icon: 'firebase',
+  },
+  {
     name: 'MongoDB',
     color: '#13aa52',
     icon: 'leaf',
