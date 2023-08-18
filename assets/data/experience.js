@@ -1,18 +1,18 @@
 export default [
   {
-    title: 'Web Developer',
-    company: 'Block Bins',
+    title: 'Online Grocery Pickup Associate',
+    company: 'Walmart',
     type: 'Part-Time',
-    start: 'December 2021',
-    end: 'January 2022',
-    description: 'I worked on designing a website based on modern JavaScript frameworks.',
+    start: 'June 2023',
+    end: 'August 2023',
+    description: 'I picked up groceries, organized orders, and delivered them to customers in the parking lot.',
   },
   {
     title: 'Web Developer',
     company: 'Block Bins',
     type: 'Part-Time',
     start: 'June 2021',
-    end: 'August 2021',
+    end: 'August 2023',
     description: 'I worked on designing a website based on modern JavaScript frameworks.',
   },
   {
