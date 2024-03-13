@@ -1,5 +1,13 @@
 export default [
   {
+    title: 'Computer Science Teaching Assistant',
+    company: 'Illinois Institute of Technology',
+    type: 'Part-Time',
+    start: 'January 2024',
+    end: 'Current',
+    description: 'I taught lab sections and sometimes class, explained labs and helped students solve problems with their code.',
+  },
+  {
     title: 'Online Grocery Pickup Associate',
     company: 'Walmart',
     type: 'Part-Time',
