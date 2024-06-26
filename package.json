@@ -1,26 +1,34 @@
 {
   "name": "wdmatthews.github.io",
-  "version": "1.0.0",
-  "private": true,
+  "version": "2.0.0",
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
-    "lint": "npm run lint:js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "core-js": "^3.9.1",
-    "nuxt": "^2.15.3"
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@mantine/core": "7.10.2",
+    "@mantine/hooks": "7.10.2",
+    "next": "14.2.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config": "^6.0.0",
-    "@nuxtjs/eslint-module": "^3.0.2",
-    "@nuxtjs/vuetify": "^1.11.3",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.22.0",
-    "eslint-plugin-nuxt": "^2.0.0",
-    "eslint-plugin-vue": "^7.7.0"
-  }
+    "@types/node": "20.14.8",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8.4.38",
+    "postcss-preset-mantine": "1.15.0",
+    "postcss-simple-vars": "^7.0.1",
+    "typescript": "5.5.2"
+  },
+  "packageManager": "yarn@4.3.1"
 }
