@@ -24,16 +24,20 @@ const languages:Skill[] = [
 
 const frameworks:Skill[] = [
   {
+    name: 'React',
+    color: 'var(--mantine-color-blue-3)',
+  },
+  {
+    name: 'Next.js',
+    color: 'var(--mantine-color-blue-7)',
+  },
+  {
     name: 'Vue.js',
     color: 'var(--mantine-color-teal-7)',
   },
   {
     name: 'Nuxt',
     color: 'var(--mantine-color-green-6)',
-  },
-  {
-    name: 'Vuetify.js',
-    color: 'var(--mantine-color-blue-7)',
   },
 ];
 
