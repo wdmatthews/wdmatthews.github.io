@@ -129,7 +129,7 @@ export default function HomePage() {
       <AppShell.Main pb={rem("76px")}>
         <Container>
           <Title order={1}>Welcome!</Title>
-          <Text>I&apos;m Wesley Matthews, a computer engineer with a few years of experience in web development and problem solving. I am looking to further web development experience or branch out into other software and hardware fields.</Text>
+          <Text>I&apos;m Wesley Matthews, a computer engineer with a few years of experience in web development, game development, and problem solving. I am looking to further my web development experience, game development experience, or branch out into other software fields.</Text>
           <Title id="education" order={2} mt="md" tt="uppercase">Education</Title>
           <Stack
             align="stretch"

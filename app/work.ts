@@ -15,7 +15,7 @@ const work:Job[] = [
     company: 'Illinois Institute of Technology',
     location: 'Chicago, IL',
     start: 'January 2024',
-    end: 'Current',
+    end: 'December 2024',
     description: [
       'Collaborated with other teaching assistants in helping students to understand assignments and prepare for exams, taking students from confused and overwhelmed to learning content and passing exams',
       'Taught fundamental computer science concepts, the C language and debugging, to help prepare students for upcoming lectures and labs',
