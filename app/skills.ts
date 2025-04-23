@@ -20,6 +20,14 @@ const languages:Skill[] = [
     name: 'SQL',
     color: "var(--mantine-color-blue-5)",
   },
+  {
+    name: 'Java',
+    color: "var(--mantine-color-blue-6)",
+  },
+  {
+    name: 'Python',
+    color: "var(--mantine-color-yellow-4)",
+  },
 ];
 
 const frameworks:Skill[] = [
