@@ -62,6 +62,10 @@ const technologies:Skill[] = [
     name: 'MongoDB',
     color: 'var(--mantine-color-green-4)',
   },
+  {
+    name: 'Express.js',
+    color: 'var(--mantine-color-white)',
+  },
 ];
 
 export type { Skill };
