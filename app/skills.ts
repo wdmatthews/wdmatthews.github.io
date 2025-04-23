@@ -21,6 +21,10 @@ const languages:Skill[] = [
     color: "var(--mantine-color-blue-5)",
   },
   {
+    name: 'PHP',
+    color: 'var(--mantine-color-violet-4)',
+  },
+  {
     name: 'Java',
     color: "var(--mantine-color-blue-6)",
   },
