@@ -74,6 +74,10 @@ const technologies:Skill[] = [
     name: 'Express.js',
     color: 'var(--mantine-color-white)',
   },
+  {
+    name: 'MySQL',
+    color: 'var(--mantine-color-orange-4)',
+  },
 ];
 
 export type { Skill };
