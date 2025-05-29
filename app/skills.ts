@@ -82,6 +82,10 @@ const technologies:Skill[] = [
     name: 'MySQL',
     color: 'var(--mantine-color-orange-4)',
   },
+  {
+    name: 'Docker',
+    color: 'var(--mantine-color-blue-6)',
+  },
 ];
 
 export type { Skill };
