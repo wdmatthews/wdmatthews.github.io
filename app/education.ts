@@ -11,7 +11,7 @@ const education:School[] = [
     name: 'Illinois Institute of Technology',
     location: 'Chicago, IL',
     degree: 'B.S. Computer Engineering',
-    gpa: 3.86,
+    gpa: 3.88,
     graduation: 'May 2025',
   },
 ];
