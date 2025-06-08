@@ -67,6 +67,10 @@ const technologies:Skill[] = [
     color: 'var(--mantine-color-gray-0)',
   },
   {
+    name: 'PostgreSQL',
+    color: 'var(--mantine-color-blue-7)',
+  },
+  {
     name: 'Node.js',
     color: 'var(--mantine-color-lime-8)',
   },
